@@ -12,6 +12,8 @@ This app is for those who are interested in my week of learning Python and Machi
 
 I made this as a Student at Code Chrysalis during polyglotal week (week where we learn a new language from scratch)
 
+You can check out the deloyed app on [Heroku](https://nba-prediction-app.herokuapp.com/)
+
 ---
 
 #### This is what you see when you open the page:
@@ -44,8 +46,8 @@ I made this as a Student at Code Chrysalis during polyglotal week (week where we
 
 ### My presentation slides
 
-[>>> Click here to see the slides I used <<<](
-https://docs.google.com/presentation/d/e/2PACX-1vRXO3l_9rm6H4n9lo0Q0UoBhfDC-RfQb0ASpoTT0CBJX51o9KW8aZwrquzvn2lq2eSWcKi-1Q-G6SjP/pub?start=false&loop=false&delayms=3000)
+[Click here](
+https://docs.google.com/presentation/d/e/2PACX-1vRXO3l_9rm6H4n9lo0Q0UoBhfDC-RfQb0ASpoTT0CBJX51o9KW8aZwrquzvn2lq2eSWcKi-1Q-G6SjP/pub?start=false&loop=false&delayms=3000) to see the slides I used for my presentation
 
 
 
@@ -53,7 +55,7 @@ https://docs.google.com/presentation/d/e/2PACX-1vRXO3l_9rm6H4n9lo0Q0UoBhfDC-RfQb
 
 ### Future improvements
 
-* As this was my first time with Python, the Machine Learning predictability is not at a high accuracy percentage. I would like to increase this accuracy.
+* As this was my first time with Python, the Machine Learning predictability is not at a high accuracy percentage. I would like to increase this accuracy
 * Add more features and inputs so you can see all the data and it is very customizable
 * Deploy this app. Potentially using a service such as Heroku
 
