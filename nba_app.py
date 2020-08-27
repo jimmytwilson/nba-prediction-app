@@ -53,6 +53,10 @@ logistic_regression_model = LogisticRegression()
 
 logistic_regression_model.fit(X_train, y_train.values.ravel())
 
+pickle.dump(logistic_regression_model, open('nba_clf.pkl', 'wb'))
+
+logistic_regression_model = pickle.load(open('nba_clf.pkl', 'rb'))
+
 #Commented out code below was used to test the clf
 #ml_test_data = OrderedDict([("fran_id", 4), ("opp_fran", 8)])
 #ml_test_data = pd.Series(ml_test_data).values.reshape(1,-1)
