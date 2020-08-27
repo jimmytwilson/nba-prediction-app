@@ -16,19 +16,19 @@ I made this as a Student at Code Chrysalis during polyglotal week (week where we
 
 #### This is what you see when you open the page:
 
-![](2020-08-27-17-42-53.png)
+![](readme_imgs/2020-08-27-17-42-53.png)
 
 ---
 
 #### You can select a team and start/end years to show data:
 
-![](2020-08-27-17-45-21.png)
+![](readme_imgs/2020-08-27-17-45-21.png)
 
 ---
 
 #### You can predict the winner of the game by selecting two teams (Home/Away)
 
-![](2020-08-27-17-47-59.png)
+![](readme_imgs/2020-08-27-17-47-59.png)
 
 ---
 
