@@ -49,16 +49,17 @@ y = pd.DataFrame(final_targ_dict)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8,test_size=0.2,random_state = 4000)
 
-linear_regression_model = LogisticRegression()
+logistic_regression_model = LogisticRegression()
 
-linear_regression_model.fit(X_train, y_train.values.ravel())
+logistic_regression_model.fit(X_train, y_train.values.ravel())
 
-ml_test_data = OrderedDict([("fran_id", 4), ("opp_fran", 8)])
-ml_test_data = pd.Series(ml_test_data).values.reshape(1,-1)
+#Commented out code below was used to test the clf
+#ml_test_data = OrderedDict([("fran_id", 4), ("opp_fran", 8)])
+#ml_test_data = pd.Series(ml_test_data).values.reshape(1,-1)
 
-#print(linear_regression_model.predict(ml_test_data))
-#print(linear_regression_model.predict_proba(ml_test_data))
-#print(linear_regression_model.score(X_test,y_test))
+#print(logistic_regression_model.predict(ml_test_data))
+#print(logistic_regression_model.predict_proba(ml_test_data))
+#print(logistic_regression_model.score(X_test,y_test))
 
 
 #Getting all team names
@@ -136,8 +137,8 @@ st.header('Win prediction')
 if (df == "Can't have the same team") or (df == "Please input teams") or (df == "Please input teams in the sidebar"):
     st.write(df)
 else:
-    prediction = linear_regression_model.predict(df)
-    prediction_proba = linear_regression_model.predict_proba(df)
+    prediction = logistic_regression_model.predict(df)
+    prediction_proba = logistic_regression_model.predict_proba(df)
 
     winner_team = "Select Team"
     if (prediction_proba[0][0] > prediction_proba[0][1]):
